@@ -1,3 +1,10 @@
+@media (max-width: 1500px){
+    .portfolio .container::after,
+    .portfolio .container::before {
+        display: none;
+    }
+}
+
 @media (max-width: 1320px){
     .top{
         padding: 10px 0;
@@ -9,11 +16,6 @@
         max-width: fit-content;
         margin: 0 auto;
         text-align: center;
-    }
-    
-    .portfolio .container::after,
-    .portfolio .container::before{
-        background-image: none;
     }
 }
 
